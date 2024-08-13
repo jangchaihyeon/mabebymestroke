@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뇌졸증 진단 프로그램</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>뇌졸증 진단 프로그램</h1>
+        <p>뇌졸증 위험을 진단하고 예방하세요.</p>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>진단 시작하기</h2>
+            <form id="diagnosis-form">
+                <label for="age">나이:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="gender">성별:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">남성</option>
+                    <option value="female">여성</option>
+                </select>
+
+                <label for="bloodPressure">혈압:</label>
+                <input type="number" id="bloodPressure" name="bloodPressure" required>
+
+                <label for="cholesterol">콜레스테롤 수치:</label>
+                <input type="number" id="cholesterol" name="cholesterol" required>
+
+                <label for="smoking">흡연 여부:</label>
+                <select id="smoking" name="smoking" required>
+                    <option value="yes">예</option>
+                    <option value="no">아니요</option>
+                </select>
+
+                <button type="submit">진단하기</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 뇌졸증 진단 프로그램. All rights reserved.</p>
+    </footer>
+</body>
+</html>
